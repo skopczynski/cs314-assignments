@@ -1,0 +1,107 @@
+
+h1 {
+    color: blue;
+    font-size: 40px;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+h2{
+    color: darkblue;
+    font-size: 25px;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+h3{
+    color: white;
+    font-size:20px;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+.header {
+    
+    padding: 25px;
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+.topnav {
+    overflow: hidden;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+    
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: turquoise;
+    color: black;
+}
+.section {
+    padding: 10px;
+    text-align: center;
+    background-color: lawngreen;
+}
+p{
+    padding: 10px;
+    color: darkgoldenrod;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+.box1 {
+    display: inline-block;
+    position: relative;
+    right: 100px;
+    top: 50px;
+    width: 350px;
+    height: 250px;
+    background-color: grey ;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+.box2 {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    width: 350px;
+    height: 350px;
+    background-color: grey ;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+
+.box-section {
+    padding: 10px;
+    text-align: center;
+    height: auto;
+    
+}
+
+.after-box-section {
+    background-color: darkblue;
+    width:100%;
+}
+.footer{
+    padding: 10px;
+    width: 100%;
+    background-color:black;
+    text-align: left;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+.button-box{
+    text-align: center;
+}
+.button{
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 50px;
+    cursor: pointer;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
