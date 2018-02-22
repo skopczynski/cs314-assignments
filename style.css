@@ -109,4 +109,9 @@ a {
     }
     
 }
+@font-face {
+    font-family: 'Nanum Pen Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Nanum Pen'), local('NanumPen'), url('myfont.woff2') format('woff2');
 
