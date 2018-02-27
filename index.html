@@ -2,60 +2,55 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Assignment 4</title>
+    <title>Assignment 5</title>
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <div class="icon">
-                <li style="float:right; padding-right:3em; padding-top:0.5em">
-                    <div style="font-size:2em; color:white">
-                        <i class="fas fa-paw"></i>
-                    </div>
-                </li>
-            </div>
-            </ul>
-      <div class="section">
-        <h2>Example Headline</h2>
+       
+    <div class="section">
+        <h2>Hi There!</h2>
         <p>
-            Doggo ipsum heckin good boys long bois woofer tungg very jealous pupper thicc, borkdrive long doggo thicc fat boi blep, sub woofer puggo wow such tempt most angery pupper I have ever seen. Porgo puggo lotsa pats length boy vvv, smol he made many woofs shoober doge woofer, very jealous pupper most angery pupper I have ever seen woofer. Pupper very jealous pupper big ol shoob doge you are doing me the shock, pupper waggy wags mlem length boy, borking doggo very hand that feed shibe tungg you are doing me the shock. Pupperino tungg corgo extremely cuuuuuute, floofs he made many woofs.
+         Tell me a little bit about yourself.
         </p>
-        <button class="button">Enter Site</button>
-      </div>
-      <div class="flex-container">
-        <div class="mid-section">
-            <div style="font-size:3em; color:black">
-                <i class="fas fa-motorcycle"></i>
+    </div>
+    <form>
+        <div class="input">
+            <label for="fname"><h1>First Name</h1></label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your first name.">
+            <label for="lname"><h1>Last Name</h1></label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your last name.">
+            <label for="lname"><h1>Email</h1></label>
+            <input type="text" id="email" name="emailaddr" placeholder="Enter your email address.">
+            <label for="lname"><h1>Age</h1></label>
+            <input type="number" id="age" name="age" placeholder="Enter your age.">
+        </div>  
+        <div class="flex-container">
+            <label for="contactChoice1">Dog Person</label>
+            <input type="radio" id="animalChoice1"name="animal" value="dog">
+            <label for="contactChoice2">Cat Person</label>
+            <input type="radio" id="animalChoice2" name="animal" value="cat">
+            <label for="contactChoice3">No Animals</label>
+            <input type="radio" id="animalChoice3" name="animal" value="nopet">
+        </div>
+        <div>
+            <label for="txtarea"><h1>About You</h1>
+            <textarea name="textarea" id="txtarea" rows="10" cols="100">Write something here</textarea>
+            <div class="select-style">
+                <h1>Favorite Season</h1>
+                <select>
+                    <option value="spring">Spring</option>
+                    <option value="summer">Summer</option>
+                    <option value="winter">Winter</option>
+                    <option value="fall">Fall</option>
+                </select>
             </div>
-            <h1>
-                Sit milk bone greyhound maltese, doberman pinscher k9 leap dog bone pit bull heel pug tennis ball. Husky spin stay pit bull k9 shih tzu peanut butter. Bite leave it dog house milk bone tug sit spin, milk bone dog house lap dog english mastiff german shephard. K9 tail boxer, beagle dog house german shephard doberman pinscher bang poodle dog bone greyhound release leave it. Pit bull down leash tug, poodle puppy stay spin spin stand greyhound.
-            </h1>
-            <button class="button">View More</button>
         </div>
-        <div class="mid-section">
-                <div style="font-size:3em; color:black">
-                     <i class="fas fa-motorcycle"></i>
-                </div>
-                <h1>
-                    Sit milk bone greyhound maltese, doberman pinscher k9 leap dog bone pit bull heel pug tennis ball. Husky spin stay pit bull k9 shih tzu peanut butter. Bite leave it dog house milk bone tug sit spin, milk bone dog house lap dog english mastiff german shephard. K9 tail boxer, beagle dog house german shephard doberman pinscher bang poodle dog bone greyhound release leave it. Pit bull down leash tug, poodle puppy stay spin spin stand greyhound.
-                </h1>
-                <button class="button">View More</button>
+        <div class="button-box">
+            <input type="submit" value="Submit" id="sbmt-button">
         </div>
-        <div class="mid-section">
-                <div style="font-size:3em; color:black">
-                    <i class="fas fa-motorcycle"></i>
-                </div>
-                <h1>
-                    Sit milk bone greyhound maltese, doberman pinscher k9 leap dog bone pit bull heel pug tennis ball. Husky spin stay pit bull k9 shih tzu peanut butter. Bite leave it dog house milk bone tug sit spin, milk bone dog house lap dog english mastiff german shephard. K9 tail boxer, beagle dog house german shephard doberman pinscher bang poodle dog bone greyhound release leave it. Pit bull down leash tug, poodle puppy stay spin spin stand greyhound.
-                </h1>
-                <button class="button">View More</button>
-        </div> 
-      </div>
+    
+    </form>
   </body>
 </html>

@@ -3,16 +3,15 @@ h1 {
     color:black;
     font-size: 1em;
     font-family: 'Nanum Pen Script', cursive, serif, monospace;
-    padding:1em;
 }
 h2{
     color: black;
-    font-size: 3em;
+    font-size: 8em;
     font-family: 'Nanum Pen Script', cursive, serif, monospace;
 }
 h3{
-    color: white;
-    font-size:1.25em;
+    color: black;
+    font-size:2em;
     font-family: 'Nanum Pen Script', cursive, serif, monospace;
 }
 h4{
@@ -20,92 +19,118 @@ h4{
     font-size:2.5em;
     font-family: 'Nanum Pen Script', cursive, serif, monospace;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 3em;
-    overflow: hidden;
-    background-color:black;
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-
-li {
-    float: left;
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit], select{
+    font-size: 1.25em;
+    background-color: transparent;
+    border-radius: 0.625em;
+    border: 0.0625em solid red;
+    color: palevioletred;
+    padding: 0.3em 1.25em;
+    text-decoration: none;
+    cursor: pointer;
     font-family: 'Nanum Pen Script', cursive, serif, monospace;
 }
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 0.875em 1em;
-    text-decoration: none;
+input[type=submit]:hover{
+    background-color: black;
+    transition: background-color 1s ease;
 }
-li a:hover{
-    background-color: turquoise;
-    color: black;
+label{
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+div{
+    margin:auto;
+    width:60%;
+    
+}
+.input{
+    margin:auto;
+    width:60%;
+    padding-top:3em;
+}
+::-webkit-input-placeholder{
+    color:palevioletred;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+    font-size:1.5em;
+}
+.form-section{
+    text-align: center;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+textarea{
+    width:100%;
+    border: 1px solid red;
+    border-radius: 4px;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+    font-size:1em;
+    color:palevioletred;
+    resize:none;
+    margin: 4px 0;
 }
 
 .section {
-    padding: 4em;
+    
+    width:100%;
     text-align: center;
-    background-color:lightgray;
+    background-color: palevioletred;
+}
+
+.select-style{
+    width:101%;
+}
+.select-style select{
+    outline:none;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+    font-size:1em;
+    color:palevioletred;
+    border: 1px solid red;
 }
 p{
-    padding: 0.625em;
-    color:white;
+    padding: 0.2em;
+    color:black;
+    font-size: 2em;
     font-family: 'Nanum Pen Script', cursive, serif, monospace;
 }
 
 
 .button-box{
+    padding-top:3em;
+    padding-bottom:3em;
     text-align: center;
     position: relative;
 }
-.button{
-    font-size: 1.25em;
-    background-color: transparent;
-    border-radius: 0.625em;
-    border: 0.0625em solid black;
-    color: black;
-    padding: 0.3em 1.25em;
-    text-decoration: none;
-    cursor: pointer;
-    font-family: 'Nanum Pen Script', cursive, serif, monospace;
-    
-    
-}
-.mid-section{
-    padding: 2em;
-    text-align:center;
-}
+
 .flex-container{
     display: flex;
     justify-content: space-evenly;
+    padding-top:0.75em;
+    padding-bottom:0.75em;
 }
-.button:hover{
-    background-color: white;
-    transition: background-color 1s ease;
-}
-.button:active{
-    color:white;
-    background-color: black;
-}
-a {
-    color: inherit;
-    text-decoration: none;
-}
+
 @media only screen and (max-width: 768px){
     .flex-container{
         flex-wrap: wrap;
-    }
-    .icon{
-        display:none;
-    }
-    ul {
-        padding-left:0;
-        display:flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
     }
     
 }
