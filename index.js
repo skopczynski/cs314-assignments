@@ -48,9 +48,9 @@ let functionFive = function(a, b, c = "c"){
 }
 */
 const functionFive = (a, b, c = "c") => a + b + c;
-//functionOne();
-//functionOneRewrite();
-//functionTwo();
+functionOne();
+functionOneRewrite();
+functionTwo();
 let x = new functionThree("Scott", "Kopczynski")
 let y = functionFour(x);
 console.log(x);
