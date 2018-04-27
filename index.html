@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JS in the Browser</title> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head> 
+  <body>
+    <div class="header"><h2>Assignment 9</h2></div>
+    <div class="container"></div>
+    <div class="button-container">
+        <div class="dropdown">
+            <button onclick="albumDropDown()" class="dropbtn">Albums</button>
+            <div id="myDropdown" class="dropdown-content">
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="todoDropDown()" class="dropbtn">TODOs</button>
+            <div id="myDropdown-two" class="dropdown-content-two"></div>
+        </div>
+    </div>
+    <div class="text-section">
+        <div class="text-section1"></div>
+        <div class="text-section2"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
