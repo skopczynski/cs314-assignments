@@ -1,0 +1,342 @@
+
+div{
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+h1 {
+    color:black;
+    font-size: 1em;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+h2{
+    color: black;
+    font-size: 2em;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+h3{
+    color: black;
+    font-size:2em;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+h4{
+    color: black;
+    font-size:1.5em;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit], select{
+    font-size: 1.25em;
+    background-color: transparent;
+    border-radius: 0.625em;
+    border: 0.0625em solid black;
+    color: white;
+    padding: 0.3em 1.25em;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+input[type=submit]:hover{
+    background-color: black;
+    transition: background-color 1s ease;
+}
+label{
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+div{
+    margin:auto;
+    width:60%;
+    
+}
+.heading{
+    text-align: center;
+    padding:1em;
+}
+.input{
+    margin:auto;
+    width:60%;
+    padding-top:3em;
+}
+::-webkit-input-placeholder{
+    color:black;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+    font-size:1.5em;
+}
+.form-section{
+    text-align: center;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+textarea{
+    width:100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+    font-size:1em;
+    color:black;
+    resize:none;
+    margin: 4px 0;
+}
+
+p{
+    padding: 0.2em;
+    color:rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+
+
+.button-box{
+    padding-top:3em;
+    padding-bottom:3em;
+    text-align: center;
+    position: relative;
+}
+
+.flex-container{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:0.75em;
+    padding-bottom:0.75em;
+    text-decoration: none;
+}
+.topnav {
+    overflow: hidden;
+    width:100%;
+    
+}
+
+
+.topnav a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float:right;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+
+
+.topnav a:hover {
+    background-color: lightblue;
+    opacity: 0.4;
+    color:black;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    
+}
+.home-page {
+    
+    background-image: url("Track.jpg");
+    height: 100%; 
+    width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.description{
+    background-color:lightgray;
+    opacity: 0.5;
+    border:1px solid white;
+    border-radius: 0.5em;
+    width:75%;
+}
+
+.main-container{
+    position: fixed;
+    top: 40%;
+    left: 25%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+.description:hover{
+    opacity: 1;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+.button{
+    background-color: lightgray;
+    color:black;
+    border-radius: 0.625em;
+    border: 0.0625em solid black;
+    padding: 0.625em 1.25em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width:25%;
+    opacity: 0.5;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+.button:hover{
+    opacity: 1;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+.button:active{
+    color:white;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+    background-color:lightcoral;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:2.6em;
+    background-color:lightgray;
+    opacity: 0.5;
+    color: white;
+    text-align: left;
+ }
+ .fa {
+    padding: 0.5em;
+    font-size: 30px;
+    width: 1.25em;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .general-container{
+      height:100%;
+      width:100%;
+      padding-bottom:2.6em;
+      background-color: lightblue;
+      display:block;
+      overflow: auto;
+  }
+  .title{
+      text-align: center;
+  }
+  a{
+      text-decoration: none;
+      color:black;
+  }
+  .resume-container{
+    background-color: lightblue;
+    height: 100%; 
+    width:100%;
+}
+  img{
+      width:9em;
+      height:9em;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit], select{
+    font-size: 1.25em;
+    background-color: transparent;
+    border-radius: 0.625em;
+    border: 0.0625em solid white;
+    color: black;
+    padding: 0.3em 1.25em;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+}
+input[type=submit]:hover{
+    background-color: black;
+    transition: background-color 1s ease;
+}
+.input{
+    margin:auto;
+    width:60%;
+    padding-top:3em;
+}
+::-webkit-input-placeholder{
+    color:black;
+    font-family: 'Nanum Pen Script', cursive, serif, monospace;
+    font-size:1.5em;
+}
+.button-box{
+    padding-top:3em;
+    padding-bottom:3em;
+    text-align: center;
+    position: relative;
+}
+.text-section{
+    display:flex;
+    justify-content: space-evenly;
+}
+#map {
+    height: 400px;
+    width: 100%;
+   }
+.map-title{
+    text-align: center;
+}
+@media only screen and (max-width: 768px){
+    .flex-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-container{
+        top:20%;
+    }
+    .container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .general-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@font-face {
+    font-family: 'Nanum Pen Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Nanum Pen'), local('NanumPen'), url('myfont.woff2') format('woff2');
+}

@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Scott Kopczynski</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <div class="general-container">
+        <div class="topnav">
+                <a href="index.html">
+                    Homepage
+                </a>
+                <a href="form.html">
+                    Form Page
+                </a>
+                <a href="map.html">
+                    Map Page
+                </a>
+                <a href="api.html">
+                    API Page
+                </a>
+        </div>
+        <div class="map-title">
+            <h3>My Map</h3>
+        </div>
+        <div id="map"></div>
+        <div class="marker-description">
+            <h4>Marker One: <h1>The start of the Harrison Loop, my favorite motorcycle ride. From marker one to marker two is 
+                18 miles of nothing but twisty roads.</h1>
+            </h4>
+            <h4>Marker Two:<h1>Marks the end of the first part of the Harrison loop, stop here to get some of the best ice cream
+                I have ever eaten, at Harrison Creamery.
+            </h1></h4>
+            <h4>Marker Three:<h1>Marks the turnoff of highway 97 to highway 3, where the turns become wide sweepers. Meaing you can
+                really open up the bike.
+            </h1></h4>
+            <h4>Marker Four:<h1>Marks the end of the loop, get on I-90 and head back to Spokane, watch for cops in the pass.</h1></h4>
+        </div>
+        <script src="mapScript.js"></script>
+        
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIKamQxnIGE7OkZv6sZAuIan4B-KmveFk&callback=initMap">
+        </script>
+        
+    </div>
+    <div class="footer">
+            <a href="https://www.facebook.com/scott.kopczynski.14" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/scottkopczynski/" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/scott-kopczynski-434431153/" class="fa fa-linkedin"></a>
+    </div>
+  </body>
+</html>
